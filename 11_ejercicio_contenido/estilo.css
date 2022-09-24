@@ -1,0 +1,39 @@
+#with-flexbox {
+    display:flex;
+}
+*{
+    padding: 0;
+    margin: 1;
+}
+#INTROS{
+    background-color: rgb(180, 0, 0);
+    display: flex;
+    justify-content: space-around;
+
+}
+#NOTICIAS{
+    background-color: rgb(14, 75, 15);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.column{
+
+    padding: 4vh;
+}
+
+.title{
+    text-align: center;
+}
+
+.paragraph {
+    text-align: center;
+}
+.title2{
+    text-align: left;
+}
+
+.paragraph2{
+    text-align: left;
+}
